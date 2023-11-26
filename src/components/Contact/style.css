@@ -1,0 +1,29 @@
+.contact {
+  height: 33px;
+  position: relative;
+  width: 113px;
+}
+
+.contact .text-wrapper-13 {
+  color: #ffb337;
+  font-family: "Proxima Nova-Regular", Helvetica;
+  font-size: 33px;
+  font-weight: 400;
+  height: 33px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.contact:hover .text-wrapper-13 {
+  color: #e2e2e2;
+  font-size: 38px;
+  height: 38px;
+  left: -8px;
+  text-align: center;
+  top: -4px;
+}

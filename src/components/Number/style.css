@@ -1,0 +1,61 @@
+.number {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 390px;
+}
+
+.number .type-a-question-3 {
+  align-self: stretch;
+  color: var(--title-color);
+  font-family: var(--title-font-family);
+  font-size: var(--title-font-size);
+  font-style: var(--title-font-style);
+  font-weight: var(--title-font-weight);
+  letter-spacing: var(--title-letter-spacing);
+  line-height: var(--title-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.number .frame-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  overflow: hidden;
+  padding: 0px 15px;
+  position: relative;
+  width: 100%;
+}
+
+.number .text-wrapper-4 {
+  color: var(--input-color);
+  flex: 1;
+  font-family: var(--input-font-family);
+  font-size: var(--input-font-size);
+  font-style: var(--input-font-style);
+  font-weight: var(--input-font-weight);
+  letter-spacing: var(--input-letter-spacing);
+  line-height: var(--input-line-height);
+  position: relative;
+}
+
+.number .text-wrapper-5 {
+  color: var(--error-color);
+  font-family: var(--error-font-family);
+  font-size: var(--error-font-size);
+  font-style: var(--error-font-style);
+  font-weight: var(--error-font-weight);
+  letter-spacing: var(--error-letter-spacing);
+  line-height: var(--error-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

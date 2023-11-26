@@ -1,0 +1,22 @@
+.submit-button {
+  all: unset;
+  align-items: center;
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 40px;
+  padding: 8px 20px;
+  position: relative;
+}
+
+.submit-button .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}

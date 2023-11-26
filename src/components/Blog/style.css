@@ -1,0 +1,28 @@
+.blog {
+  height: 33px;
+  position: relative;
+  width: 67px;
+}
+
+.blog .text-wrapper-12 {
+  color: #ffb337;
+  font-family: "Proxima Nova-Regular", Helvetica;
+  font-size: 33px;
+  font-weight: 400;
+  height: 33px;
+  left: -16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.blog:hover .text-wrapper-12 {
+  color: #e2e2e2;
+  font-size: 38px;
+  height: 38px;
+  left: -23px;
+  top: -4px;
+}

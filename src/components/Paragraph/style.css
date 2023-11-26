@@ -1,0 +1,49 @@
+.paragraph {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 390px;
+}
+
+.paragraph .type-a-question-4 {
+  align-self: stretch;
+  color: var(--title-color);
+  font-family: var(--title-font-family);
+  font-size: var(--title-font-size);
+  font-style: var(--title-font-style);
+  font-weight: var(--title-font-weight);
+  letter-spacing: var(--title-letter-spacing);
+  line-height: var(--title-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.paragraph .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  height: 120px;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.paragraph .text-wrapper-6 {
+  color: var(--input-color);
+  flex: 1;
+  font-family: var(--input-font-family);
+  font-size: var(--input-font-size);
+  font-style: var(--input-font-style);
+  font-weight: var(--input-font-weight);
+  letter-spacing: var(--input-letter-spacing);
+  line-height: var(--input-line-height);
+  margin-top: -1px;
+  position: relative;
+}

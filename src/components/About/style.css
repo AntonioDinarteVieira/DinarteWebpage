@@ -1,0 +1,33 @@
+.about {
+  height: 33px;
+  position: relative;
+  width: 88px;
+}
+
+.about .text-wrapper-9 {
+  color: #ffb337;
+  font-family: "Proxima Nova-Regular", Helvetica;
+  font-size: 33px;
+  font-weight: 400;
+  height: 33px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.about:hover {
+  border: 0px none;
+}
+
+.about:hover .text-wrapper-9 {
+  color: #d9d9d9;
+  font-size: 38px;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  top: -3px;
+}
